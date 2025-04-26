@@ -1,14 +1,14 @@
 ### COMPARATIVE-ANALYSIS-OF-SUPERVISED-AND-ENSEMBLE-MODEL-FOR-DETECTING-MALICIOUS-ACTIVITIES IN CYBER SECURITY 
 
-This project implements supervised machine learning model and ensemble model in detecting in malicious in cyber security. 
+This project implements supervised machine learning model and ensemble model in detecting in malicious activities in cyber security. 
 
 ## Dataset Description 
 
 # Source: 
 
-I source this dataset from kaggle, it is publicly avaliable on the website. the dataset is gathered by researchers at the university of New South Wales ( UNSW) in 2015. 
+I sourced this dataset from kaggle, it is publicly avaliable on the website. The dataset is gathered by researchers at the university of New South Wales ( UNSW) in 2015. 
 
-the dataset contain train and test dataset. i concatinated both of them so has to have robust dataset 
+the dataset contain train and test dataset. i concatinated both so as to have robust dataset 
 
 # Size: 
 
@@ -28,9 +28,7 @@ i plotted some graphs in the project like ;
 
 ## Data Preprocessing 
 
-1. i concatinated both the train and test to have a robust dataset.
-
-2. i also applied label encoder to convert the target variable from categorical columns to numerical columns
+1. i also applied label encoder to convert the target variable from categorical columns to numerical columns
 
 After the pre-processing i splitted the total dataset into train (80%) and test (20%) so as to have majority for the train and smaller percentage to test the trained model
 
@@ -40,7 +38,7 @@ The precison percentage is calculated based on the mean of malicious and normal 
 
 # 1. Logisitic Regression:( 0.70%)
 
-precision: ( 65%)
+precision: (65%)
 
 recall: (57.5%)
 
@@ -88,6 +86,5 @@ recall: (95.5%)
 
 f1- score: (95.5%)
 
-After supervised and ensemble model is used on the dataset it shows that ensemble model handle the dataset very well because of the ability to handle large dataset 
- than standalone supervised machine learning model.  
+After supervised and ensemble model is used on the dataset it shows that ensemble model handles the dataset very well because of its ability to handle large dataset than standalone supervised machine learning model.  
 
