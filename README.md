@@ -86,5 +86,4 @@ recall: (95.5%)
 
 f1- score: (95.5%)
 
-After supervised and ensemble model is used on the dataset it shows that ensemble model handles the dataset very well because of its ability to handle large dataset than standalone supervised machine learning model.  
-
+The results shows that ensemble models performs better than standalone supervised machine learning model, with Bagging and Stacking Classifier achieving the highest accuracy of 96%. In contrast, Naive Bayes had the lowest performance, possibly because it's a standalone model and does not have the ability to handle large dataset. 
