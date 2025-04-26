@@ -34,6 +34,29 @@ i plotted some graphs in the project like ;
 
 After the pre-processing i splitted the total dataset into train (80%) and test (20%) so as to have majority for the train and smaller percentage to test the trained model
 
+## Model Implemented 
 
+# 1. Logisitic Regression:( 0.70%)
 
+precision: ( 65%)
+
+recall: (57.5%)
+
+f1- score: (56.5%)
+
+# 2. Naive Bayes: (0.63%)
+
+precision: (54%%)
+
+recall: (53%)
+
+f1- score: (52.5%)
+
+# 3. K-nearest neighbor: (0.78%)
+
+precision: (75.5%)
+
+recall: (73%)
+
+f1- score: (74%)
 
