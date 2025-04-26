@@ -36,6 +36,8 @@ After the pre-processing i splitted the total dataset into train (80%) and test 
 
 ## Model Implemented 
 
+The precison percentage is calculated based on the mean of malicious and normal attack
+
 # 1. Logisitic Regression:( 0.70%)
 
 precision: ( 65%)
@@ -59,4 +61,33 @@ precision: (75.5%)
 recall: (73%)
 
 f1- score: (74%)
+
+## Ensemble model 
+
+# 1. Gradient boosting: (0.91%)
+
+precision: (89.5%)
+
+recall: (89%)
+
+f1- score: (89%)
+
+# 2. Bagging classifier: (0.96%)
+
+precision: (96%)
+
+recall: (96%)
+
+f1- score: (95.5%)
+
+# 3. Stacking classifier: (0.96%)
+
+precision: (95.5%)
+
+recall: (95.5%)
+
+f1- score: (95.5%)
+
+After supervised and ensemble model is used on the dataset it shows that ensemble model handle the dataset very well because of the ability to handle large dataset 
+ than standalone supervised machine learning model.  
 
